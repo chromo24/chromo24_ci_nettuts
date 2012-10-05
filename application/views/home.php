@@ -12,6 +12,11 @@
 <body>
 	<div id="container">
 		<p>My view has been loaded</p>
+
+		<?php foreach ($records as $row): ?>
+			<h1><?php echo $row->title; ?></h1>
+		<?php endforeach; ?>
+
 	</div>
 	
 

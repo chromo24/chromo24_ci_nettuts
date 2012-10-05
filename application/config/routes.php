@@ -37,10 +37,10 @@
 | in the URL cannot be matched to a valid route.
 |
 
-
-$route['default_controller'] = "blog";
-$route['404_override'] = '';
 */
+$route['default_controller'] = 'site';
+$route['404_override'] = '';
+
 /* 
 $route['news/create'] = 'news/create';
 $route['news/(:any)'] = 'news/view/$1';
